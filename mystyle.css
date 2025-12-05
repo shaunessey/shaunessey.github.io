@@ -39,18 +39,18 @@ body {
     'header header header header header header' 
     'left middle middle middle middle right' 
     'footer footer footer footer footer footer';
-  /* grid-column-gap: 10px; - if you want gap between the columns */
+  grid-column-gap: 10px;
 } 
 
 .left,
 .middle,
 .right {
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Style the left column */
 .left {
+  text-align: center;
   color: #ffffff;
   background-color: #575757;
   grid-area: left;
@@ -58,13 +58,19 @@ body {
 
 /* Style the middle column */
 .middle {
+  text-align: center;
   color: #ffffff;
   background-color: #516e7b;
   grid-area: middle;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
 /* Style the right column */
 .right {
+  text-align: center;
   color: #ffffff;
   background-color: #575757;
   grid-area: right;
@@ -90,6 +96,7 @@ body {
       'footer footer footer footer footer footer';
   }
 }
+
 
 
 
