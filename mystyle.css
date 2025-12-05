@@ -39,7 +39,7 @@ body {
     'header header header header header header' 
     'left middle middle middle middle right' 
     'footer footer footer footer footer footer';
-  grid-column-gap: 10px;
+  /* grid-column-gap: 10px; */
 } 
 
 .left,
@@ -96,6 +96,7 @@ body {
       'footer footer footer footer footer footer';
   }
 }
+
 
 
 
