@@ -63,7 +63,7 @@ body {
   background-color: #516e7b;
   grid-area: middle;
   margin: auto;
-  width: 50%;
+  /*width: 50%; */
   border: 3px solid green;
   padding: 10px;
 }
@@ -96,6 +96,7 @@ body {
       'footer footer footer footer footer footer';
   }
 }
+
 
 
 
