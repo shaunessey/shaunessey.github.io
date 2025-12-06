@@ -1,15 +1,9 @@
 /* https://accessibleweb.com/color-contrast-checker/ */
 
-h1 {
+/* General font styling. */
+h1, h2, h3, p, body {
 	color: #ffffff;
-}
-
-h2 {
-	color: #ffffff;	
-}
-
-h3 {
-	color: #ffffff;
+	font-family: verdana;
 }
 
 .mySlides {
@@ -18,10 +12,6 @@ h3 {
 
 * {
   box-sizing: border-box;
-}
-
-body {
-  font-family: verdana;
 }
 
 /* Style the header */
@@ -98,6 +88,7 @@ body {
       'footer footer footer footer footer footer';
   }
 }
+
 
 
 
