@@ -6,13 +6,15 @@ body {
   display: none;
   width:100%
 }
+.mySlides img {
+    width: 600px;
+    height: auto;
+}
 .w3-content {
   max-width:2000px;
   margin-top:46px
 }
-#dnd {
-  max-width:800px
-}
 .w3-third {
   width:60%
+
 }
