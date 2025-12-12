@@ -45,7 +45,7 @@ body {
 
 /* Portrait image container */
 .portrait-image {
-    float: left;
+    float: left;
     width: 300px; /* Reduced to fit typical screen sizes for a good wrap */
     height: 400px; /* Set a fixed height for the portrait aspect */
     margin-right: 20px; /* Space between the image and the text */
