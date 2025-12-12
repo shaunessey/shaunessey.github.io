@@ -14,7 +14,7 @@ body {
 /* Style for <em> when on a dark/black background */
 .emphasis-dark-bg {
     background-color: #000000; /* Black Background */
-    color: #999fff;          /* Custom Light Blue Foreground */
+    color: #9999ff;          /* Custom Light Blue Foreground */
     font-style: normal;      /* Override default italic from <em> */
     padding: 2px 4px;
     border-radius: 4px;
