@@ -1,10 +1,10 @@
 /* mystyle.css for MART 145 */
 body {
-  font-family: "Lato", sans-serif
+  font-family: "Lato", sans-serif;
 }
 .mySlides {
   display: none;
-  width:100%
+  width:100%;
 }
 .mySlides img {
     max-width: 600px; 
@@ -16,9 +16,35 @@ body {
 }
 .w3-content {
   max-width:2000px;
-  margin-top:64px
+  margin-top:64px;
+  padding: 0 16px;
 }
 .w3-third {
-  width:60%
+  width:60%;
+}
+.portrait-section {
+    margin-bottom: 64px;
+}
 
+/* Portrait image container */
+.portrait-image {
+    float: left;
+    width: 300px; /* Reduced to fit typical screen sizes for a good wrap */
+    height: 400px; /* Set a fixed height for the portrait aspect */
+    margin-right: 20px; /* Space between the image and the text */
+    margin-bottom: 20px; /* Space below the image */
+    overflow: hidden; /* Crucial for clipping the image */
+    border-radius: 50% / 60%; /* Portrait oval shape: */
+}
+
+/* Style the portrait image inside the container */
+.portrait-image img {
+    width: 100%; /* Make the image fill its container */
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* Ensure H2 sits next to the image */
+.portrait-section h2 {
+    margin-top: 0; /* Remove default top margin for better alignment next to the image */
 }
