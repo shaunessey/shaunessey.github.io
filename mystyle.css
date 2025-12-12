@@ -2,6 +2,23 @@
 body {
   font-family: "Lato", sans-serif;
 }
+/* Style for <em> when on a light/white background */
+.emphasis-light-bg {
+    background-color: #FFFFFF; /* White Background */
+    color: #1a1aff;          /* Custom Blue Foreground */
+    font-style: normal;      /* Override default italic from <em> */
+    padding: 2px 4px;        /* Add padding around the text */
+    border-radius: 4px;      /* Slightly rounded corners */
+}
+
+/* Style for <em> when on a dark/black background */
+.emphasis-dark-bg {
+    background-color: #000000; /* Black Background */
+    color: #999fff;          /* Custom Light Blue Foreground */
+    font-style: normal;      /* Override default italic from <em> */
+    padding: 2px 4px;
+    border-radius: 4px;
+}
 .mySlides {
   display: none;
   width:100%;
